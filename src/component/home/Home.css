@@ -1,0 +1,15 @@
+
+.container{
+    width: 1550px;
+    height: 1000px;
+    padding: 2rem;
+    background: url("../../assets/images/background.jpg") center/cover no-repeat;;
+}
+
+.frame{
+    width: 1350px;
+    padding: 1.5rem;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
