@@ -1,3 +1,9 @@
+
+:root {
+  --primary: #333;
+  --bg: #ada496;
+}
+
 .App {
   text-align: center;
 }

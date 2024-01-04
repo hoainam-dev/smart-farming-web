@@ -1,4 +1,4 @@
-import Image from "../../../../../assets/images/manual.png";
+import Image from "../../assets/images/manual.png";
 import ManualPump from "../manual-pump/ManualPump";
 
 function Manual() {

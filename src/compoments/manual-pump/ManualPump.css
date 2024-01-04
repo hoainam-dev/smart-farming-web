@@ -1,0 +1,38 @@
+/* Styles */
+.box-container {
+  @apply w-[18%] h-[320px];  
+}
+
+.box-container .top {
+  background: linear-gradient(to bottom right, #F59E0B, #EF4444);
+  @apply w-full h-[60%] rounded-lg p-4 cursor-pointer backdrop-blur-[5px]; 
+}
+
+.box-container .top:hover {
+  background: linear-gradient(to bottom right, #F59E0B, #EF4444); 
+}
+
+.box-container .top img {
+  border-radius: 8px;  
+}
+
+.box-container .top p {
+  font-size: 18px;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.box-container .center {
+  background: linear-gradient(to bottom right, #F59E0B, #EF4444);
+  @apply w-full h-[9%] rounded-lg p-4 my-6 cursor-pointer backdrop-blur-[5px];
+}
+
+.box-container .bottom {
+  background: linear-gradient(to bottom right, #F59E0B, #EF4444);
+  @apply w-full h-[9%] rounded-lg p-4 my-6 cursor-pointer backdrop-blur-[5px];  
+}
+
+/* Slider */
+.slider {
+  background: #fff; 
+  border-radius: 30px;
+}
