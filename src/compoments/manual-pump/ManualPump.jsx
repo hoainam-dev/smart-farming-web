@@ -1,5 +1,5 @@
 import React from "react";
-
+import './ManualPump.css'
 function ManualPump({ title, image }) {
   return (
     <div className="box-container ">

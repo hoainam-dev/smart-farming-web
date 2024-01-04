@@ -10,7 +10,6 @@ function Template() {
       <div className="mt-4 frame-body p-4 rounded-xl shadow-lg max-w-sm">
         <div className="flex items-center">
           <img src={img} className="w-auto" alt="..." />
-
             <div className="ml-6 flex flex-col gap-1 text-white">
             <span className="text-lg font-bold">Nutrient Level</span>
             <span>5 Greams left</span>

@@ -5,7 +5,7 @@ import Template from "../temperature-prediction/Template";
 
 function Content() {
   return (
-    <div className="grid grid-cols-4 gap-4 pt-40">
+    <div className="grid xl:grid-cols-4 gap-4 pt-40 sm:grid-cols-2">
       <AirConditioner />
       <Manual />
       <Pump />
