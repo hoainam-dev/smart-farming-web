@@ -6,6 +6,7 @@
 
 .App {
   text-align: center;
+  background: url("./assets/images/background.jpg") center/cover no-repeat;  
 }
 
 .App-logo {
@@ -33,7 +34,9 @@
 .App-link {
   color: #61dafb;
 }
-
+.font-size {
+  font-size: 20px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css"; // No longer needed with Tailwind CSS
+import "./Header.css";
 import { FiAlignJustify } from "react-icons/fi";
 import Control from "../../assets/images/control.png";
 import News from "../../assets/images/news.png";

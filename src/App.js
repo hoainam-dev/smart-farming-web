@@ -1,13 +1,17 @@
 import "./App.css";
+import Devices from "./compoments/devices/Devices";
+import Header from "./compoments/header/Header";
 import Home from "./compoments/home/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // import "t";
 function App() {
   return (
-      <Router>
+    <Router>
       <div className="App">
+        <Header />
         <Routes>
-          <Route path="/home" element={<Home/>}/>
+          <Route path="/control" element={<Home />} />
+          <Route path="/device" element={<Devices />} />
         </Routes>
       </div>
     </Router>
