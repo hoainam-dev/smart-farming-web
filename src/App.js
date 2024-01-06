@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App sm:h-dvh">
         <Header />
         <Routes>
           <Route path="/control" element={<Home />} />

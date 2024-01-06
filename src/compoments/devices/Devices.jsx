@@ -75,9 +75,8 @@ function Devices() {
   }
 
   return (
-    <div className="container mx-auto max-w-2xl pt-10 pb-16">
+    <div className="container mx-auto max-w-2xl pt-10 pb-16 rounded-lg border-solid border-2 border-white my-5 p-20">
       <h1 className="text-4xl font-medium text-center text-blue-500 mb-6">Devices CRUD</h1>
-
       <form onSubmit={editDevice ? updateDevice : addDevice}>
         <div className="form-control ">
           <label className='pr-2 text-white'>Name</label>
