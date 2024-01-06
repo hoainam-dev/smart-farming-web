@@ -1,4 +1,5 @@
 import "./App.css";
+import SignIn from "./compoments/auth/SignIn";
 import Devices from "./compoments/devices/Devices";
 import Header from "./compoments/header/Header";
 import Home from "./compoments/home/Home";
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/control" element={<Home />} />
           <Route path="/device" element={<Devices />} />
+          <Route path="/login" element={<SignIn />} />
         </Routes>
       </div>
     </Router>

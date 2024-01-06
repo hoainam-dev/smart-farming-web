@@ -3,14 +3,14 @@ import { useState } from 'react';
 function Devices() {
 
   const [devices, setDevices] = useState([
-    {
-      id: 1,
-      name: 'Device 1',
-      status: 'OFF',
-      topic: 'topic1',
-      turn_on: "11h",
-      turn_off: "11h" 
-    }
+    // {
+    //   id: 1,
+    //   name: 'Device 1',
+    //   status: 'OFF',
+    //   topic: 'topic1',
+    //   turn_on: "11h",
+    //   turn_off: "11h" 
+    // }
   ]);
   const [name, setName] = useState('');
   const [status, setStatus] = useState('online');

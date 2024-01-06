@@ -6,6 +6,7 @@ import News from "../../assets/images/news.png";
 import Plant from "../../assets/images/plant.png";
 import Device from "../../assets/images/device.png";
 import HeaderItem from "./HeaderItem";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
