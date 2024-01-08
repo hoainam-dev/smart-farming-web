@@ -4,6 +4,7 @@
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
 }
+
 .switch {
   position: relative;
   display: inline-block;
@@ -25,19 +26,21 @@
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  border-radius: 25px; /* Updated for a more consistent appearance */
+  -webkit-transition: background-color 0.4s, box-shadow 0.4s;
+  transition: background-color 0.4s, box-shadow 0.4s;
 }
 
 .slider:before {
   position: absolute;
   content: "";
   height: 25px;
-  width: 26px;
+  width: 25px; /* Updated to match the height for a square appearance */
   left: 1px;
   background-color: white;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  border-radius: 50%;
+  -webkit-transition: transform 0.4s;
+  transition: transform 0.4s;
 }
 
 input:checked + .slider {
@@ -49,9 +52,7 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(22px);
-  -ms-transform: translateX(22px);
-  transform: translateX(22px);
+  transform: translateX(25px); /* Updated to match the width for a square appearance */
 }
 
 /* Rounded sliders */
