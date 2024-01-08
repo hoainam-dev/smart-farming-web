@@ -6,10 +6,11 @@ import Home from "./compoments/home/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // import "t";
 function App() {
+  const userName = localStorage.getItem("user");
   return (
     <Router>
-      <div className="App sm:h-dvh">
-        <Header />
+      <div className="App sm:h-dvh ">
+        <Header userName={userName}/>
         <Routes>
           <Route path="/control" element={<Home />} />
           <Route path="/device" element={<Devices />} />

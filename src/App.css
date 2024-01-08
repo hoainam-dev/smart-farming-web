@@ -31,6 +31,33 @@
   color: white;
 }
 
+.box-container {
+  display: flex;
+  flex-direction: column;  
+}
+
+.top, 
+.center,
+.bottom {
+  width: 100%;
+  padding: 10px;
+}
+
+.top p {
+  font-size: 14px;  
+}
+
+img {
+  margin: auto;
+}
+
+/* Slider */ 
+
+.slider {
+  width: 50px; 
+  height: 25px;
+}
+
 .App-link {
   color: #61dafb;
 }
